@@ -16,6 +16,8 @@
 		5E2ED9BF1C87127B001A4A3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E2ED9BD1C87127B001A4A3A /* LaunchScreen.storyboard */; };
 		5E2ED9CA1C87127B001A4A3A /* iOS_LearningRoadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2ED9C91C87127B001A4A3A /* iOS_LearningRoadTests.m */; };
 		5E2ED9D51C87127C001A4A3A /* iOS_LearningRoadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2ED9D41C87127C001A4A3A /* iOS_LearningRoadUITests.m */; };
+		5ED52B451C87192800F012C7 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 5ED52B431C87192800F012C7 /* README.md */; };
+		5ED52B461C87192800F012C7 /* Xcode将项目放到GitHub上.pages in Resources */ = {isa = PBXBuildFile; fileRef = 5ED52B441C87192800F012C7 /* Xcode将项目放到GitHub上.pages */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		5E2ED9D01C87127C001A4A3A /* iOS-LearningRoadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-LearningRoadUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E2ED9D41C87127C001A4A3A /* iOS_LearningRoadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_LearningRoadUITests.m; sourceTree = "<group>"; };
 		5E2ED9D61C87127C001A4A3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ED52B431C87192800F012C7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5ED52B441C87192800F012C7 /* Xcode将项目放到GitHub上.pages */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Xcode将项目放到GitHub上.pages"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,8 @@
 				5E2ED9C81C87127B001A4A3A /* iOS-LearningRoadTests */,
 				5E2ED9D31C87127C001A4A3A /* iOS-LearningRoadUITests */,
 				5E2ED9AA1C87127B001A4A3A /* Products */,
+				5ED52B441C87192800F012C7 /* Xcode将项目放到GitHub上.pages */,
+				5ED52B431C87192800F012C7 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -246,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ED52B461C87192800F012C7 /* Xcode将项目放到GitHub上.pages in Resources */,
 				5E2ED9BF1C87127B001A4A3A /* LaunchScreen.storyboard in Resources */,
 				5E2ED9BC1C87127B001A4A3A /* Assets.xcassets in Resources */,
 				5E2ED9B71C87127B001A4A3A /* Main.storyboard in Resources */,
@@ -275,6 +282,7 @@
 			files = (
 				5E2ED9B41C87127B001A4A3A /* ViewController.m in Sources */,
 				5E2ED9BA1C87127B001A4A3A /* iOS_LearningRoad.xcdatamodeld in Sources */,
+				5ED52B451C87192800F012C7 /* README.md in Sources */,
 				5E2ED9B11C87127B001A4A3A /* AppDelegate.m in Sources */,
 				5E2ED9AE1C87127B001A4A3A /* main.m in Sources */,
 			);
@@ -500,6 +508,7 @@
 				5E2ED9DB1C87127C001A4A3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E2ED9DC1C87127C001A4A3A /* Build configuration list for PBXNativeTarget "iOS-LearningRoadTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +517,7 @@
 				5E2ED9DE1C87127C001A4A3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E2ED9DF1C87127C001A4A3A /* Build configuration list for PBXNativeTarget "iOS-LearningRoadUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +526,7 @@
 				5E2ED9E11C87127C001A4A3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
