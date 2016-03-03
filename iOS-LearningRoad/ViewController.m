@@ -28,7 +28,6 @@
     [btnOne setBounds:CGRectMake(0, 0, 100, 50)];
     [btnOne addTarget:self action:@selector(test) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btnOne];
-    NSLog(@"%f---%f",SCREEN_FRAME.size.height,SCREEN_HEIGHT);
 }
 
 //按钮点击事件测试
