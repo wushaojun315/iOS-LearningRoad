@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E75024F278C382FBFC08E0C /* libPods-iOS-LearningRoad.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0B18A52BBA0152CB9069C2 /* libPods-iOS-LearningRoad.a */; };
 		5E2ED9AE1C87127B001A4A3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2ED9AD1C87127B001A4A3A /* main.m */; };
 		5E2ED9B11C87127B001A4A3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2ED9B01C87127B001A4A3A /* AppDelegate.m */; };
-		5E2ED9B41C87127B001A4A3A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2ED9B31C87127B001A4A3A /* ViewController.m */; };
-		5E2ED9B71C87127B001A4A3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E2ED9B51C87127B001A4A3A /* Main.storyboard */; };
 		5E2ED9BA1C87127B001A4A3A /* iOS_LearningRoad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5E2ED9B81C87127B001A4A3A /* iOS_LearningRoad.xcdatamodeld */; };
 		5E2ED9BC1C87127B001A4A3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E2ED9BB1C87127B001A4A3A /* Assets.xcassets */; };
-		5E2ED9BF1C87127B001A4A3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E2ED9BD1C87127B001A4A3A /* LaunchScreen.storyboard */; };
 		5E2ED9CA1C87127B001A4A3A /* iOS_LearningRoadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2ED9C91C87127B001A4A3A /* iOS_LearningRoadTests.m */; };
 		5E2ED9D51C87127C001A4A3A /* iOS_LearningRoadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2ED9D41C87127C001A4A3A /* iOS_LearningRoadUITests.m */; };
 		5ED52B451C87192800F012C7 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 5ED52B431C87192800F012C7 /* README.md */; };
 		5ED52B461C87192800F012C7 /* Xcode将项目放到GitHub上.pages in Resources */ = {isa = PBXBuildFile; fileRef = 5ED52B441C87192800F012C7 /* Xcode将项目放到GitHub上.pages */; };
+		5ED52B4C1C87CC1C00F012C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED52B4A1C87CC1C00F012C7 /* ViewController.m */; };
+		5ED52B4D1C87CC1C00F012C7 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5ED52B4B1C87CC1C00F012C7 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,16 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D0B18A52BBA0152CB9069C2 /* libPods-iOS-LearningRoad.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS-LearningRoad.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E2ED9A91C87127B001A4A3A /* iOS-LearningRoad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-LearningRoad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E2ED9AD1C87127B001A4A3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5E2ED9AF1C87127B001A4A3A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5E2ED9B01C87127B001A4A3A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5E2ED9B21C87127B001A4A3A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5E2ED9B31C87127B001A4A3A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		5E2ED9B61C87127B001A4A3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5E2ED9B91C87127B001A4A3A /* iOS_LearningRoad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOS_LearningRoad.xcdatamodel; sourceTree = "<group>"; };
 		5E2ED9BB1C87127B001A4A3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5E2ED9BE1C87127B001A4A3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E2ED9C01C87127B001A4A3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E2ED9C51C87127B001A4A3A /* iOS-LearningRoadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-LearningRoadTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E2ED9C91C87127B001A4A3A /* iOS_LearningRoadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_LearningRoadTests.m; sourceTree = "<group>"; };
@@ -57,6 +54,12 @@
 		5E2ED9D61C87127C001A4A3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5ED52B431C87192800F012C7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5ED52B441C87192800F012C7 /* Xcode将项目放到GitHub上.pages */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Xcode将项目放到GitHub上.pages"; sourceTree = "<group>"; };
+		5ED52B491C87CC1C00F012C7 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5ED52B4A1C87CC1C00F012C7 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5ED52B4B1C87CC1C00F012C7 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		5ED52B4E1C87CFCB00F012C7 /* iOS-LearningRoad-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "iOS-LearningRoad-Prefix.pch"; sourceTree = "<group>"; };
+		A6616E4AAD1D2CB531086604 /* Pods-iOS-LearningRoad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-LearningRoad.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-LearningRoad/Pods-iOS-LearningRoad.debug.xcconfig"; sourceTree = "<group>"; };
+		FFD8A3293BF1D01D842D2D85 /* Pods-iOS-LearningRoad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-LearningRoad.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-LearningRoad/Pods-iOS-LearningRoad.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E75024F278C382FBFC08E0C /* libPods-iOS-LearningRoad.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +97,8 @@
 				5E2ED9AA1C87127B001A4A3A /* Products */,
 				5ED52B441C87192800F012C7 /* Xcode将项目放到GitHub上.pages */,
 				5ED52B431C87192800F012C7 /* README.md */,
+				F193EC8C71073FDA061A30C8 /* Pods */,
+				7085CB5942D833F93E087A8F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,11 +117,10 @@
 			children = (
 				5E2ED9AF1C87127B001A4A3A /* AppDelegate.h */,
 				5E2ED9B01C87127B001A4A3A /* AppDelegate.m */,
-				5E2ED9B21C87127B001A4A3A /* ViewController.h */,
-				5E2ED9B31C87127B001A4A3A /* ViewController.m */,
-				5E2ED9B51C87127B001A4A3A /* Main.storyboard */,
+				5ED52B491C87CC1C00F012C7 /* ViewController.h */,
+				5ED52B4A1C87CC1C00F012C7 /* ViewController.m */,
+				5ED52B4B1C87CC1C00F012C7 /* ViewController.xib */,
 				5E2ED9BB1C87127B001A4A3A /* Assets.xcassets */,
-				5E2ED9BD1C87127B001A4A3A /* LaunchScreen.storyboard */,
 				5E2ED9C01C87127B001A4A3A /* Info.plist */,
 				5E2ED9B81C87127B001A4A3A /* iOS_LearningRoad.xcdatamodeld */,
 				5E2ED9AC1C87127B001A4A3A /* Supporting Files */,
@@ -127,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				5E2ED9AD1C87127B001A4A3A /* main.m */,
+				5ED52B4E1C87CFCB00F012C7 /* iOS-LearningRoad-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -149,6 +155,23 @@
 			path = "iOS-LearningRoadUITests";
 			sourceTree = "<group>";
 		};
+		7085CB5942D833F93E087A8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D0B18A52BBA0152CB9069C2 /* libPods-iOS-LearningRoad.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F193EC8C71073FDA061A30C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6616E4AAD1D2CB531086604 /* Pods-iOS-LearningRoad.debug.xcconfig */,
+				FFD8A3293BF1D01D842D2D85 /* Pods-iOS-LearningRoad.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -156,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E2ED9D91C87127C001A4A3A /* Build configuration list for PBXNativeTarget "iOS-LearningRoad" */;
 			buildPhases = (
+				6C6D6AAA84D47DCCE040C69A /* Check Pods Manifest.lock */,
 				5E2ED9A51C87127B001A4A3A /* Sources */,
 				5E2ED9A61C87127B001A4A3A /* Frameworks */,
 				5E2ED9A71C87127B001A4A3A /* Resources */,
+				110914989CB5DE24CD14D0E6 /* Embed Pods Frameworks */,
+				A2DC6B16153FD4ADF526A7BD /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,9 +279,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5ED52B461C87192800F012C7 /* Xcode将项目放到GitHub上.pages in Resources */,
-				5E2ED9BF1C87127B001A4A3A /* LaunchScreen.storyboard in Resources */,
+				5ED52B4D1C87CC1C00F012C7 /* ViewController.xib in Resources */,
 				5E2ED9BC1C87127B001A4A3A /* Assets.xcassets in Resources */,
-				5E2ED9B71C87127B001A4A3A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,16 +300,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		110914989CB5DE24CD14D0E6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS-LearningRoad/Pods-iOS-LearningRoad-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C6D6AAA84D47DCCE040C69A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A2DC6B16153FD4ADF526A7BD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS-LearningRoad/Pods-iOS-LearningRoad-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5E2ED9A51C87127B001A4A3A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E2ED9B41C87127B001A4A3A /* ViewController.m in Sources */,
 				5E2ED9BA1C87127B001A4A3A /* iOS_LearningRoad.xcdatamodeld in Sources */,
 				5ED52B451C87192800F012C7 /* README.md in Sources */,
 				5E2ED9B11C87127B001A4A3A /* AppDelegate.m in Sources */,
 				5E2ED9AE1C87127B001A4A3A /* main.m in Sources */,
+				5ED52B4C1C87CC1C00F012C7 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,25 +391,6 @@
 			targetProxy = 5E2ED9D11C87127C001A4A3A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		5E2ED9B51C87127B001A4A3A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5E2ED9B61C87127B001A4A3A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5E2ED9BD1C87127B001A4A3A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5E2ED9BE1C87127B001A4A3A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5E2ED9D71C87127C001A4A3A /* Debug */ = {
@@ -421,23 +475,31 @@
 		};
 		5E2ED9DA1C87127C001A4A3A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6616E4AAD1D2CB531086604 /* Pods-iOS-LearningRoad.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/iOS-LearningRoad/iOS-LearningRoad-Prefix.pch";
 				INFOPLIST_FILE = "iOS-LearningRoad/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.freedom.iOS-LearningRoad";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 			};
 			name = Debug;
 		};
 		5E2ED9DB1C87127C001A4A3A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFD8A3293BF1D01D842D2D85 /* Pods-iOS-LearningRoad.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/iOS-LearningRoad/iOS-LearningRoad-Prefix.pch";
 				INFOPLIST_FILE = "iOS-LearningRoad/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.freedom.iOS-LearningRoad";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 			};
 			name = Release;
 		};
