@@ -7,6 +7,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController">
             <connections>
+                <outlet property="btnButton" destination="duG-Xg-o22" id="I6d-Xr-nvJ"/>
+                <outlet property="labHint" destination="J1X-M6-Er6" id="T7h-w6-ci5"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -14,7 +16,38 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To Show Something" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J1X-M6-Er6">
+                    <rect key="frame" x="200" y="200" width="200" height="100"/>
+                    <color key="backgroundColor" red="0.78823529410000004" green="0.78823529410000004" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="Vu9-xH-bBb"/>
+                        <constraint firstAttribute="width" constant="200" id="eDV-Qn-Fay"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="duG-Xg-o22">
+                    <rect key="frame" x="200" y="330" width="200" height="30"/>
+                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="cDp-lY-MsT"/>
+                    </constraints>
+                    <state key="normal" title="退出"/>
+                    <connections>
+                        <action selector="click:" destination="-1" eventType="touchUpInside" id="dDV-KH-7aG"/>
+                    </connections>
+                </button>
+            </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="J1X-M6-Er6" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="200" id="2YR-6C-tTc"/>
+                <constraint firstItem="duG-Xg-o22" firstAttribute="width" secondItem="J1X-M6-Er6" secondAttribute="width" id="4ke-XF-TlJ"/>
+                <constraint firstItem="J1X-M6-Er6" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="GXw-oO-Dnq"/>
+                <constraint firstItem="duG-Xg-o22" firstAttribute="centerX" secondItem="J1X-M6-Er6" secondAttribute="centerX" id="Jnp-42-a72"/>
+                <constraint firstItem="duG-Xg-o22" firstAttribute="top" secondItem="J1X-M6-Er6" secondAttribute="bottom" constant="30" id="iBu-uM-prt"/>
+            </constraints>
         </view>
     </objects>
 </document>

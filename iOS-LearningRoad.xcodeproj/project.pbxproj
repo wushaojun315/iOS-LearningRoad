@@ -14,6 +14,8 @@
 		5E2ED9BC1C87127B001A4A3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E2ED9BB1C87127B001A4A3A /* Assets.xcassets */; };
 		5E2ED9CA1C87127B001A4A3A /* iOS_LearningRoadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2ED9C91C87127B001A4A3A /* iOS_LearningRoadTests.m */; };
 		5E2ED9D51C87127C001A4A3A /* iOS_LearningRoadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2ED9D41C87127C001A4A3A /* iOS_LearningRoadUITests.m */; };
+		5E693DA01C8EA674007DC6E0 /* CustomProtocolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E693D9E1C8EA674007DC6E0 /* CustomProtocolViewController.m */; };
+		5E693DA11C8EA674007DC6E0 /* CustomProtocolViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E693D9F1C8EA674007DC6E0 /* CustomProtocolViewController.xib */; };
 		5ED52B451C87192800F012C7 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 5ED52B431C87192800F012C7 /* README.md */; };
 		5ED52B461C87192800F012C7 /* Xcode将项目放到GitHub上.pages in Resources */ = {isa = PBXBuildFile; fileRef = 5ED52B441C87192800F012C7 /* Xcode将项目放到GitHub上.pages */; };
 		5ED52B4C1C87CC1C00F012C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED52B4A1C87CC1C00F012C7 /* ViewController.m */; };
@@ -52,6 +54,9 @@
 		5E2ED9D01C87127C001A4A3A /* iOS-LearningRoadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-LearningRoadUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E2ED9D41C87127C001A4A3A /* iOS_LearningRoadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_LearningRoadUITests.m; sourceTree = "<group>"; };
 		5E2ED9D61C87127C001A4A3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E693D9D1C8EA674007DC6E0 /* CustomProtocolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomProtocolViewController.h; path = "自定义委托/CustomProtocolViewController.h"; sourceTree = "<group>"; };
+		5E693D9E1C8EA674007DC6E0 /* CustomProtocolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomProtocolViewController.m; path = "自定义委托/CustomProtocolViewController.m"; sourceTree = "<group>"; };
+		5E693D9F1C8EA674007DC6E0 /* CustomProtocolViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomProtocolViewController.xib; path = "自定义委托/CustomProtocolViewController.xib"; sourceTree = "<group>"; };
 		5ED52B431C87192800F012C7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5ED52B441C87192800F012C7 /* Xcode将项目放到GitHub上.pages */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Xcode将项目放到GitHub上.pages"; sourceTree = "<group>"; };
 		5ED52B491C87CC1C00F012C7 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -120,6 +125,7 @@
 				5ED52B491C87CC1C00F012C7 /* ViewController.h */,
 				5ED52B4A1C87CC1C00F012C7 /* ViewController.m */,
 				5ED52B4B1C87CC1C00F012C7 /* ViewController.xib */,
+				5E693D9C1C8EA621007DC6E0 /* 自定义委托 */,
 				5E2ED9BB1C87127B001A4A3A /* Assets.xcassets */,
 				5E2ED9C01C87127B001A4A3A /* Info.plist */,
 				5E2ED9B81C87127B001A4A3A /* iOS_LearningRoad.xcdatamodeld */,
@@ -153,6 +159,16 @@
 				5E2ED9D61C87127C001A4A3A /* Info.plist */,
 			);
 			path = "iOS-LearningRoadUITests";
+			sourceTree = "<group>";
+		};
+		5E693D9C1C8EA621007DC6E0 /* 自定义委托 */ = {
+			isa = PBXGroup;
+			children = (
+				5E693D9D1C8EA674007DC6E0 /* CustomProtocolViewController.h */,
+				5E693D9E1C8EA674007DC6E0 /* CustomProtocolViewController.m */,
+				5E693D9F1C8EA674007DC6E0 /* CustomProtocolViewController.xib */,
+			);
+			name = "自定义委托";
 			sourceTree = "<group>";
 		};
 		7085CB5942D833F93E087A8F /* Frameworks */ = {
@@ -280,6 +296,7 @@
 			files = (
 				5ED52B461C87192800F012C7 /* Xcode将项目放到GitHub上.pages in Resources */,
 				5ED52B4D1C87CC1C00F012C7 /* ViewController.xib in Resources */,
+				5E693DA11C8EA674007DC6E0 /* CustomProtocolViewController.xib in Resources */,
 				5E2ED9BC1C87127B001A4A3A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,6 +375,7 @@
 				5E2ED9B11C87127B001A4A3A /* AppDelegate.m in Sources */,
 				5E2ED9AE1C87127B001A4A3A /* main.m in Sources */,
 				5ED52B4C1C87CC1C00F012C7 /* ViewController.m in Sources */,
+				5E693DA01C8EA674007DC6E0 /* CustomProtocolViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

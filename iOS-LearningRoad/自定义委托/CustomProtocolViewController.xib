@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomProtocolViewController">
+            <connections>
+                <outlet property="btnSure" destination="upS-ss-OyN" id="onM-sq-9dy"/>
+                <outlet property="txtFieldContent" destination="16Q-SO-9FT" id="4c6-Mf-O99"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入任意内容" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="16Q-SO-9FT">
+                    <rect key="frame" x="88" y="233" width="480" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="upS-ss-OyN">
+                    <rect key="frame" x="88" y="310" width="480" height="30"/>
+                    <color key="backgroundColor" red="0.12941176469999999" green="0.58823529409999997" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="确定">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="click:" destination="-1" eventType="touchUpInside" id="9Mm-ll-scG"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="16Q-SO-9FT" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="AEb-tf-f2e"/>
+                <constraint firstItem="upS-ss-OyN" firstAttribute="centerX" secondItem="16Q-SO-9FT" secondAttribute="centerX" id="Dsb-BJ-2yv"/>
+                <constraint firstItem="upS-ss-OyN" firstAttribute="width" secondItem="16Q-SO-9FT" secondAttribute="width" id="Go4-57-vbn"/>
+                <constraint firstItem="16Q-SO-9FT" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Olh-ow-cPj"/>
+                <constraint firstItem="upS-ss-OyN" firstAttribute="top" secondItem="16Q-SO-9FT" secondAttribute="bottom" constant="47" id="gc9-KE-2gd"/>
+                <constraint firstItem="16Q-SO-9FT" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.8" id="vgw-67-YiW"/>
+            </constraints>
+            <point key="canvasLocation" x="325" y="344"/>
+        </view>
+    </objects>
+</document>
