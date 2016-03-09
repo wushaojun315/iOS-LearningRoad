@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KVOUsage">
+            <connections>
+                <outlet property="labPrice" destination="SU9-Av-dOP" id="HDn-dF-bc3"/>
+                <outlet property="view" destination="iN0-l3-epB" id="XBY-Ug-PlO"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="电影名称：我的大黄狗" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QJO-5E-0ce">
+                    <rect key="frame" x="215" y="200" width="170" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="上映时间：2016年3月10日" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y74-kJ-NQ1">
+                    <rect key="frame" x="199.5" y="240.5" width="202.5" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="主演：阿黄" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Phm-Bs-8tl">
+                    <rect key="frame" x="258" y="281" width="85" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SU9-Av-dOP">
+                    <rect key="frame" x="286.5" y="321.5" width="28.5" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u8c-fm-q1N">
+                    <rect key="frame" x="270" y="397" width="60" height="30"/>
+                    <state key="normal" title="更新价格"/>
+                    <connections>
+                        <action selector="updatePrice:" destination="-1" eventType="touchUpInside" id="qu2-p6-WaZ"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Phm-Bs-8tl" firstAttribute="centerX" secondItem="Y74-kJ-NQ1" secondAttribute="centerX" id="15j-Lo-zVy"/>
+                <constraint firstItem="QJO-5E-0ce" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="200" id="2Rs-eA-XCG"/>
+                <constraint firstItem="u8c-fm-q1N" firstAttribute="top" secondItem="SU9-Av-dOP" secondAttribute="bottom" constant="55" id="4V9-W8-0Sy"/>
+                <constraint firstItem="Y74-kJ-NQ1" firstAttribute="top" secondItem="QJO-5E-0ce" secondAttribute="bottom" constant="20" id="DZT-sr-qVe"/>
+                <constraint firstItem="SU9-Av-dOP" firstAttribute="top" secondItem="Phm-Bs-8tl" secondAttribute="bottom" constant="20" id="J3N-jY-7zn"/>
+                <constraint firstItem="SU9-Av-dOP" firstAttribute="centerX" secondItem="Phm-Bs-8tl" secondAttribute="centerX" id="JIi-pv-rxY"/>
+                <constraint firstAttribute="trailing" secondItem="SU9-Av-dOP" secondAttribute="trailing" constant="285" id="JVq-E9-BSr"/>
+                <constraint firstItem="Y74-kJ-NQ1" firstAttribute="centerX" secondItem="QJO-5E-0ce" secondAttribute="centerX" id="OmH-qz-Ef8"/>
+                <constraint firstItem="u8c-fm-q1N" firstAttribute="centerX" secondItem="SU9-Av-dOP" secondAttribute="centerX" id="RKo-dx-Tma"/>
+                <constraint firstItem="Phm-Bs-8tl" firstAttribute="top" secondItem="Y74-kJ-NQ1" secondAttribute="bottom" constant="20" id="bgj-lr-OHm"/>
+                <constraint firstItem="QJO-5E-0ce" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="guM-M4-ZgK"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="JVq-E9-BSr"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+</document>

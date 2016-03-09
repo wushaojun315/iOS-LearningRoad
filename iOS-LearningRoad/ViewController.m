@@ -7,9 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "KVOUsage.h"
 
 @interface ViewController ()
 
+- (IBAction)goKVOTest:(UIButton *)sender;
 @end
 
 @implementation ViewController
@@ -41,4 +43,9 @@
     [super didReceiveMemoryWarning];
 }
 
+- (IBAction)goKVOTest:(UIButton *)sender
+{
+    KVOUsage *KVOController = [[KVOUsage alloc] init];
+    [self.navigationController pushViewController:KVOController animated:YES];
+}
 @end
