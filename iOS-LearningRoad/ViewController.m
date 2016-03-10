@@ -8,10 +8,12 @@
 
 #import "ViewController.h"
 #import "KVOUsage.h"
+#import "NotificationUsage.h"
 
 @interface ViewController ()
 
 - (IBAction)goKVOTest:(UIButton *)sender;
+- (IBAction)goNotificationTest:(UIButton *)sender;
 @end
 
 @implementation ViewController
@@ -47,5 +49,11 @@
 {
     KVOUsage *KVOController = [[KVOUsage alloc] init];
     [self.navigationController pushViewController:KVOController animated:YES];
+}
+
+- (IBAction)goNotificationTest:(UIButton *)sender
+{
+    NotificationUsage *notificationController = [[NotificationUsage alloc] init];
+    [self.navigationController pushViewController:notificationController animated:YES];
 }
 @end

@@ -20,6 +20,8 @@
 		5E693DAF1C902E61007DC6E0 /* KVOUsage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E693DAE1C902E61007DC6E0 /* KVOUsage.xib */; };
 		5E693DB41C903416007DC6E0 /* NotificationUsage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E693DB21C903416007DC6E0 /* NotificationUsage.m */; };
 		5E693DB51C903416007DC6E0 /* NotificationUsage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E693DB31C903416007DC6E0 /* NotificationUsage.xib */; };
+		5E693DB91C910E73007DC6E0 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E693DB71C910E73007DC6E0 /* LoginViewController.m */; };
+		5E693DBA1C910E73007DC6E0 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E693DB81C910E73007DC6E0 /* LoginViewController.xib */; };
 		5ED52B451C87192800F012C7 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 5ED52B431C87192800F012C7 /* README.md */; };
 		5ED52B461C87192800F012C7 /* Xcode将项目放到GitHub上.pages in Resources */ = {isa = PBXBuildFile; fileRef = 5ED52B441C87192800F012C7 /* Xcode将项目放到GitHub上.pages */; };
 		5ED52B4C1C87CC1C00F012C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED52B4A1C87CC1C00F012C7 /* ViewController.m */; };
@@ -68,6 +70,9 @@
 		5E693DB11C903416007DC6E0 /* NotificationUsage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NotificationUsage.h; path = Notification/NotificationUsage.h; sourceTree = "<group>"; };
 		5E693DB21C903416007DC6E0 /* NotificationUsage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NotificationUsage.m; path = Notification/NotificationUsage.m; sourceTree = "<group>"; };
 		5E693DB31C903416007DC6E0 /* NotificationUsage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NotificationUsage.xib; path = Notification/NotificationUsage.xib; sourceTree = "<group>"; };
+		5E693DB61C910E73007DC6E0 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = Notification/LoginViewController.h; sourceTree = "<group>"; };
+		5E693DB71C910E73007DC6E0 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = Notification/LoginViewController.m; sourceTree = "<group>"; };
+		5E693DB81C910E73007DC6E0 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoginViewController.xib; path = Notification/LoginViewController.xib; sourceTree = "<group>"; };
 		5ED52B431C87192800F012C7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5ED52B441C87192800F012C7 /* Xcode将项目放到GitHub上.pages */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Xcode将项目放到GitHub上.pages"; sourceTree = "<group>"; };
 		5ED52B491C87CC1C00F012C7 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -201,6 +206,9 @@
 				5E693DB11C903416007DC6E0 /* NotificationUsage.h */,
 				5E693DB21C903416007DC6E0 /* NotificationUsage.m */,
 				5E693DB31C903416007DC6E0 /* NotificationUsage.xib */,
+				5E693DB61C910E73007DC6E0 /* LoginViewController.h */,
+				5E693DB71C910E73007DC6E0 /* LoginViewController.m */,
+				5E693DB81C910E73007DC6E0 /* LoginViewController.xib */,
 			);
 			name = Notification;
 			sourceTree = "<group>";
@@ -330,6 +338,7 @@
 			files = (
 				5E693DB51C903416007DC6E0 /* NotificationUsage.xib in Resources */,
 				5ED52B461C87192800F012C7 /* Xcode将项目放到GitHub上.pages in Resources */,
+				5E693DBA1C910E73007DC6E0 /* LoginViewController.xib in Resources */,
 				5ED52B4D1C87CC1C00F012C7 /* ViewController.xib in Resources */,
 				5E693DAF1C902E61007DC6E0 /* KVOUsage.xib in Resources */,
 				5E2ED9BC1C87127B001A4A3A /* Assets.xcassets in Resources */,
@@ -409,6 +418,7 @@
 				5ED52B451C87192800F012C7 /* README.md in Sources */,
 				5E693DAD1C902C7C007DC6E0 /* Movie.m in Sources */,
 				5E693DA91C9022E2007DC6E0 /* KVOUsage.m in Sources */,
+				5E693DB91C910E73007DC6E0 /* LoginViewController.m in Sources */,
 				5E2ED9B11C87127B001A4A3A /* AppDelegate.m in Sources */,
 				5E693DA51C901DDC007DC6E0 /* UsageOfKVC.m in Sources */,
 				5E693DB41C903416007DC6E0 /* NotificationUsage.m in Sources */,
