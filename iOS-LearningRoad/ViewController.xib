@@ -7,6 +7,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController">
             <connections>
+                <outlet property="labText" destination="6y2-nJ-kYU" id="lse-XH-nZh"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -14,7 +15,53 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6y2-nJ-kYU">
+                    <rect key="frame" x="20" y="80" width="560" height="40"/>
+                    <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="VMG-yj-d5C"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uG5-TK-d2P">
+                    <rect key="frame" x="20" y="160" width="560" height="30"/>
+                    <color key="backgroundColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="loS-6t-9nP"/>
+                    </constraints>
+                    <state key="normal" title="选择时间（使用sctionSheetStyle）"/>
+                    <connections>
+                        <action selector="selectDateTime:" destination="-1" eventType="touchUpInside" id="SYt-ci-bky"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ybd-t2-FSR">
+                    <rect key="frame" x="20" y="230" width="560" height="30"/>
+                    <color key="backgroundColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="XW5-kq-Y3K"/>
+                    </constraints>
+                    <state key="normal" title="点击（使用alertViewStyle）"/>
+                    <connections>
+                        <action selector="showAlertView:" destination="-1" eventType="touchUpInside" id="ujX-tE-Rye"/>
+                    </connections>
+                </button>
+            </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="uG5-TK-d2P" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="AHn-zG-ssf"/>
+                <constraint firstItem="6y2-nJ-kYU" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="BCb-ZM-8u5"/>
+                <constraint firstAttribute="trailing" secondItem="6y2-nJ-kYU" secondAttribute="trailing" constant="20" id="EQu-8I-alI"/>
+                <constraint firstItem="ybd-t2-FSR" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="bQd-HR-UNT"/>
+                <constraint firstItem="6y2-nJ-kYU" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="80" id="ree-Qe-CkB"/>
+                <constraint firstItem="ybd-t2-FSR" firstAttribute="top" secondItem="uG5-TK-d2P" secondAttribute="bottom" constant="40" id="sOL-9t-EVc"/>
+                <constraint firstAttribute="trailing" secondItem="ybd-t2-FSR" secondAttribute="trailing" constant="20" id="xQi-LH-eHE"/>
+                <constraint firstItem="uG5-TK-d2P" firstAttribute="top" secondItem="6y2-nJ-kYU" secondAttribute="bottom" constant="40" id="xR5-ZN-0hq"/>
+                <constraint firstAttribute="trailing" secondItem="uG5-TK-d2P" secondAttribute="trailing" constant="20" id="zXs-b6-o28"/>
+            </constraints>
+            <point key="canvasLocation" x="315" y="337"/>
         </view>
     </objects>
 </document>

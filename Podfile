@@ -7,6 +7,7 @@ target 'iOS-LearningRoad' do
 
 pod 'Toast'
 
+pod 'Masonry', '~> 0.6.4'
 
 end
 

@@ -1,10 +1,13 @@
 PODS:
+  - Masonry (0.6.4)
   - Toast (3.0)
 
 DEPENDENCIES:
+  - Masonry (~> 0.6.4)
   - Toast
 
 SPEC CHECKSUMS:
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
   Toast: 32c59229abfcf41850162b83bb9259dc84372473
 
 COCOAPODS: 0.39.0
