@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		2E75024F278C382FBFC08E0C /* libPods-iOS-LearningRoad.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0B18A52BBA0152CB9069C2 /* libPods-iOS-LearningRoad.a */; };
+		5E102D2F1C9FDBA2004E429F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E102D2D1C9FDBA2004E429F /* ViewController.m */; };
+		5E102D301C9FDBA2004E429F /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E102D2E1C9FDBA2004E429F /* ViewController.xib */; };
+		5E102D351C9FDBC7004E429F /* ABUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E102D321C9FDBC7004E429F /* ABUtil.m */; };
+		5E102D361C9FDBC7004E429F /* AppConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E102D341C9FDBC7004E429F /* AppConfig.m */; };
+		5E102D3C1C9FDBD2004E429F /* FDBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E102D391C9FDBD2004E429F /* FDBaseModel.m */; };
+		5E102D3D1C9FDBD2004E429F /* FDBaseResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E102D3B1C9FDBD2004E429F /* FDBaseResult.m */; };
+		5E102D431C9FDBEF004E429F /* FDBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E102D401C9FDBEF004E429F /* FDBaseManager.m */; };
+		5E102D441C9FDBEF004E429F /* FDHttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E102D421C9FDBEF004E429F /* FDHttpManager.m */; };
+		5E102D4B1C9FDBF9004E429F /* FDEndPoints.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E102D481C9FDBF9004E429F /* FDEndPoints.m */; };
 		5E2ED9AE1C87127B001A4A3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2ED9AD1C87127B001A4A3A /* main.m */; };
 		5E2ED9B11C87127B001A4A3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2ED9B01C87127B001A4A3A /* AppDelegate.m */; };
 		5E2ED9BA1C87127B001A4A3A /* iOS_LearningRoad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5E2ED9B81C87127B001A4A3A /* iOS_LearningRoad.xcdatamodeld */; };
@@ -16,8 +25,6 @@
 		5E2ED9D51C87127C001A4A3A /* iOS_LearningRoadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2ED9D41C87127C001A4A3A /* iOS_LearningRoadUITests.m */; };
 		5ED52B451C87192800F012C7 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 5ED52B431C87192800F012C7 /* README.md */; };
 		5ED52B461C87192800F012C7 /* Xcode将项目放到GitHub上.pages in Resources */ = {isa = PBXBuildFile; fileRef = 5ED52B441C87192800F012C7 /* Xcode将项目放到GitHub上.pages */; };
-		5ED52B4C1C87CC1C00F012C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED52B4A1C87CC1C00F012C7 /* ViewController.m */; };
-		5ED52B4D1C87CC1C00F012C7 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5ED52B4B1C87CC1C00F012C7 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +46,27 @@
 
 /* Begin PBXFileReference section */
 		4D0B18A52BBA0152CB9069C2 /* libPods-iOS-LearningRoad.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS-LearningRoad.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E102D2C1C9FDBA2004E429F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5E102D2D1C9FDBA2004E429F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5E102D2E1C9FDBA2004E429F /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		5E102D311C9FDBC7004E429F /* ABUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABUtil.h; sourceTree = "<group>"; };
+		5E102D321C9FDBC7004E429F /* ABUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABUtil.m; sourceTree = "<group>"; };
+		5E102D331C9FDBC7004E429F /* AppConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConfig.h; sourceTree = "<group>"; };
+		5E102D341C9FDBC7004E429F /* AppConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppConfig.m; sourceTree = "<group>"; };
+		5E102D381C9FDBD2004E429F /* FDBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDBaseModel.h; sourceTree = "<group>"; };
+		5E102D391C9FDBD2004E429F /* FDBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDBaseModel.m; sourceTree = "<group>"; };
+		5E102D3A1C9FDBD2004E429F /* FDBaseResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDBaseResult.h; sourceTree = "<group>"; };
+		5E102D3B1C9FDBD2004E429F /* FDBaseResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDBaseResult.m; sourceTree = "<group>"; };
+		5E102D3F1C9FDBEF004E429F /* FDBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDBaseManager.h; sourceTree = "<group>"; };
+		5E102D401C9FDBEF004E429F /* FDBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDBaseManager.m; sourceTree = "<group>"; };
+		5E102D411C9FDBEF004E429F /* FDHttpManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDHttpManager.h; sourceTree = "<group>"; };
+		5E102D421C9FDBEF004E429F /* FDHttpManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDHttpManager.m; sourceTree = "<group>"; };
+		5E102D451C9FDBF9004E429F /* FDColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDColors.h; sourceTree = "<group>"; };
+		5E102D461C9FDBF9004E429F /* FDConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDConstants.h; sourceTree = "<group>"; };
+		5E102D471C9FDBF9004E429F /* FDEndPoints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDEndPoints.h; sourceTree = "<group>"; };
+		5E102D481C9FDBF9004E429F /* FDEndPoints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDEndPoints.m; sourceTree = "<group>"; };
+		5E102D491C9FDBF9004E429F /* FDEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDEnums.h; sourceTree = "<group>"; };
+		5E102D4A1C9FDBF9004E429F /* FDFonts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDFonts.h; sourceTree = "<group>"; };
 		5E2ED9A91C87127B001A4A3A /* iOS-LearningRoad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-LearningRoad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E2ED9AD1C87127B001A4A3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5E2ED9AF1C87127B001A4A3A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,9 +82,6 @@
 		5E2ED9D61C87127C001A4A3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5ED52B431C87192800F012C7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5ED52B441C87192800F012C7 /* Xcode将项目放到GitHub上.pages */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Xcode将项目放到GitHub上.pages"; sourceTree = "<group>"; };
-		5ED52B491C87CC1C00F012C7 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5ED52B4A1C87CC1C00F012C7 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		5ED52B4B1C87CC1C00F012C7 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		5ED52B4E1C87CFCB00F012C7 /* iOS-LearningRoad-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "iOS-LearningRoad-Prefix.pch"; sourceTree = "<group>"; };
 		A6616E4AAD1D2CB531086604 /* Pods-iOS-LearningRoad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-LearningRoad.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-LearningRoad/Pods-iOS-LearningRoad.debug.xcconfig"; sourceTree = "<group>"; };
 		FFD8A3293BF1D01D842D2D85 /* Pods-iOS-LearningRoad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-LearningRoad.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-LearningRoad/Pods-iOS-LearningRoad.release.xcconfig"; sourceTree = "<group>"; };
@@ -88,6 +113,86 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E102D261C9FDA46004E429F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5E102D2B1C9FDBA2004E429F /* Base */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5E102D271C9FDA46004E429F /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				5E102D451C9FDBF9004E429F /* FDColors.h */,
+				5E102D461C9FDBF9004E429F /* FDConstants.h */,
+				5E102D471C9FDBF9004E429F /* FDEndPoints.h */,
+				5E102D481C9FDBF9004E429F /* FDEndPoints.m */,
+				5E102D491C9FDBF9004E429F /* FDEnums.h */,
+				5E102D4A1C9FDBF9004E429F /* FDFonts.h */,
+			);
+			path = Defines;
+			sourceTree = "<group>";
+		};
+		5E102D281C9FDA46004E429F /* HttpManagers */ = {
+			isa = PBXGroup;
+			children = (
+				5E102D3E1C9FDBEF004E429F /* Base */,
+			);
+			path = HttpManagers;
+			sourceTree = "<group>";
+		};
+		5E102D291C9FDA46004E429F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5E102D371C9FDBD2004E429F /* Base */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5E102D2A1C9FDA46004E429F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5E102D311C9FDBC7004E429F /* ABUtil.h */,
+				5E102D321C9FDBC7004E429F /* ABUtil.m */,
+				5E102D331C9FDBC7004E429F /* AppConfig.h */,
+				5E102D341C9FDBC7004E429F /* AppConfig.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		5E102D2B1C9FDBA2004E429F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				5E102D2C1C9FDBA2004E429F /* ViewController.h */,
+				5E102D2D1C9FDBA2004E429F /* ViewController.m */,
+				5E102D2E1C9FDBA2004E429F /* ViewController.xib */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		5E102D371C9FDBD2004E429F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				5E102D381C9FDBD2004E429F /* FDBaseModel.h */,
+				5E102D391C9FDBD2004E429F /* FDBaseModel.m */,
+				5E102D3A1C9FDBD2004E429F /* FDBaseResult.h */,
+				5E102D3B1C9FDBD2004E429F /* FDBaseResult.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		5E102D3E1C9FDBEF004E429F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				5E102D3F1C9FDBEF004E429F /* FDBaseManager.h */,
+				5E102D401C9FDBEF004E429F /* FDBaseManager.m */,
+				5E102D411C9FDBEF004E429F /* FDHttpManager.h */,
+				5E102D421C9FDBEF004E429F /* FDHttpManager.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		5E2ED9A01C87127B001A4A3A = {
 			isa = PBXGroup;
 			children = (
@@ -117,9 +222,11 @@
 			children = (
 				5E2ED9AF1C87127B001A4A3A /* AppDelegate.h */,
 				5E2ED9B01C87127B001A4A3A /* AppDelegate.m */,
-				5ED52B491C87CC1C00F012C7 /* ViewController.h */,
-				5ED52B4A1C87CC1C00F012C7 /* ViewController.m */,
-				5ED52B4B1C87CC1C00F012C7 /* ViewController.xib */,
+				5E102D271C9FDA46004E429F /* Defines */,
+				5E102D281C9FDA46004E429F /* HttpManagers */,
+				5E102D291C9FDA46004E429F /* Models */,
+				5E102D2A1C9FDA46004E429F /* Utils */,
+				5E102D261C9FDA46004E429F /* Controllers */,
 				5E2ED9BB1C87127B001A4A3A /* Assets.xcassets */,
 				5E2ED9C01C87127B001A4A3A /* Info.plist */,
 				5E2ED9B81C87127B001A4A3A /* iOS_LearningRoad.xcdatamodeld */,
@@ -279,7 +386,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5ED52B461C87192800F012C7 /* Xcode将项目放到GitHub上.pages in Resources */,
-				5ED52B4D1C87CC1C00F012C7 /* ViewController.xib in Resources */,
+				5E102D301C9FDBA2004E429F /* ViewController.xib in Resources */,
 				5E2ED9BC1C87127B001A4A3A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -353,11 +460,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E102D431C9FDBEF004E429F /* FDBaseManager.m in Sources */,
 				5E2ED9BA1C87127B001A4A3A /* iOS_LearningRoad.xcdatamodeld in Sources */,
+				5E102D4B1C9FDBF9004E429F /* FDEndPoints.m in Sources */,
+				5E102D361C9FDBC7004E429F /* AppConfig.m in Sources */,
 				5ED52B451C87192800F012C7 /* README.md in Sources */,
+				5E102D351C9FDBC7004E429F /* ABUtil.m in Sources */,
 				5E2ED9B11C87127B001A4A3A /* AppDelegate.m in Sources */,
+				5E102D3D1C9FDBD2004E429F /* FDBaseResult.m in Sources */,
 				5E2ED9AE1C87127B001A4A3A /* main.m in Sources */,
-				5ED52B4C1C87CC1C00F012C7 /* ViewController.m in Sources */,
+				5E102D441C9FDBEF004E429F /* FDHttpManager.m in Sources */,
+				5E102D3C1C9FDBD2004E429F /* FDBaseModel.m in Sources */,
+				5E102D2F1C9FDBA2004E429F /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

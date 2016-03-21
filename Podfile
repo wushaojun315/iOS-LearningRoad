@@ -9,6 +9,15 @@ pod 'Toast'
 
 pod 'Masonry', '~> 0.6.4'
 
+pod 'AFNetworking', '~> 2.6'
+# - Homepage: github.com/AFNetworking/AFNetworking
+
+# - Homepage: github.com/shaioz/AFNetworking-AutoRetry
+pod 'AFNetworking+AutoRetry'
+
+
+pod 'JSONModel', '~> 1.2.0'
+
 end
 
 target 'iOS-LearningRoadTests' do
