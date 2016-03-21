@@ -88,6 +88,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E102D1C1C9FD6BC004E429F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5E102D1D1C9FD6D4004E429F /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		5E102D1E1C9FD6F3004E429F /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
 		5E2ED9A01C87127B001A4A3A = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +136,9 @@
 		5E2ED9AB1C87127B001A4A3A /* iOS-LearningRoad */ = {
 			isa = PBXGroup;
 			children = (
+				5E102D1E1C9FD6F3004E429F /* Util */,
+				5E102D1D1C9FD6D4004E429F /* Manager */,
+				5E102D1C1C9FD6BC004E429F /* Model */,
 				5E2ED9AF1C87127B001A4A3A /* AppDelegate.h */,
 				5E2ED9B01C87127B001A4A3A /* AppDelegate.m */,
 				5ED52B491C87CC1C00F012C7 /* ViewController.h */,
