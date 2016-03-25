@@ -48,6 +48,23 @@
 #   define DLog(...)
 #endif
 
+
+//用宏优化NSLog：能够打印出所在类名，所在方法名，详细时间，行号
+//#ifndef NSLog
+//#define NSLog(format, ...) do { \
+//fprintf(stderr, " %s\n", \
+//        [[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], \
+//        __LINE__, __func__); \
+//(NSLog)((format), ##__VA_ARGS__); \
+//fprintf(stderr, "-------\n"); \
+//} while (0)
+//#endif
+
+//使用宏计算代码的执行时间，使用NSDate的时间差即可，在摇计算时间的代码块的前后写上TICK，TOCK宏即可
+#define TICK NSDate *startTime = [NSDate date];
+#define TOCK NSLog(@"执行时间（Time）:%f",-[startTime timeIntervalSinceNow]);
+
+
 #ifndef SINGLETON
 #define SINGLETON \
 + (id)sharedInstance { \

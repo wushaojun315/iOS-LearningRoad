@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		2E75024F278C382FBFC08E0C /* libPods-iOS-LearningRoad.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0B18A52BBA0152CB9069C2 /* libPods-iOS-LearningRoad.a */; };
+		5E0DBA2A1CA1186700C819F5 /* DTOOrganInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E0DBA291CA1186700C819F5 /* DTOOrganInfo.m */; };
+		5E0DBA2E1CA11A2C00C819F5 /* OrganCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E0DBA2C1CA11A2C00C819F5 /* OrganCell.m */; };
+		5E0DBA2F1CA11A2C00C819F5 /* OrganCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E0DBA2D1CA11A2C00C819F5 /* OrganCell.xib */; };
+		5E0DBA331CA1275000C819F5 /* SelectedOrganManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E0DBA321CA1275000C819F5 /* SelectedOrganManager.m */; };
 		5E102D2F1C9FDBA2004E429F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E102D2D1C9FDBA2004E429F /* ViewController.m */; };
 		5E102D301C9FDBA2004E429F /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E102D2E1C9FDBA2004E429F /* ViewController.xib */; };
 		5E102D351C9FDBC7004E429F /* ABUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E102D321C9FDBC7004E429F /* ABUtil.m */; };
@@ -17,6 +21,20 @@
 		5E102D431C9FDBEF004E429F /* FDBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E102D401C9FDBEF004E429F /* FDBaseManager.m */; };
 		5E102D441C9FDBEF004E429F /* FDHttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E102D421C9FDBEF004E429F /* FDHttpManager.m */; };
 		5E102D4B1C9FDBF9004E429F /* FDEndPoints.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E102D481C9FDBF9004E429F /* FDEndPoints.m */; };
+		5E102D501C9FF990004E429F /* SelectOrganController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E102D4E1C9FF990004E429F /* SelectOrganController.m */; };
+		5E102D511C9FF990004E429F /* SelectOrganController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E102D4F1C9FF990004E429F /* SelectOrganController.xib */; };
+		5E1FAA701CA4E7960055FC48 /* headContacts@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E1FAA641CA4E7960055FC48 /* headContacts@2x.png */; };
+		5E1FAA711CA4E7960055FC48 /* headContacts@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E1FAA651CA4E7960055FC48 /* headContacts@3x.png */; };
+		5E1FAA721CA4E7960055FC48 /* organChecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E1FAA661CA4E7960055FC48 /* organChecked.png */; };
+		5E1FAA731CA4E7960055FC48 /* organChecked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E1FAA671CA4E7960055FC48 /* organChecked@2x.png */; };
+		5E1FAA741CA4E7960055FC48 /* organChecked@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E1FAA681CA4E7960055FC48 /* organChecked@3x.png */; };
+		5E1FAA751CA4E7960055FC48 /* organUnchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E1FAA691CA4E7960055FC48 /* organUnchecked.png */; };
+		5E1FAA761CA4E7960055FC48 /* organUnchecked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E1FAA6A1CA4E7960055FC48 /* organUnchecked@2x.png */; };
+		5E1FAA771CA4E7960055FC48 /* organUnchecked@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E1FAA6B1CA4E7960055FC48 /* organUnchecked@3x.png */; };
+		5E1FAA781CA4E7960055FC48 /* rightContacts@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E1FAA6C1CA4E7960055FC48 /* rightContacts@2x.png */; };
+		5E1FAA791CA4E7960055FC48 /* rightContacts@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E1FAA6D1CA4E7960055FC48 /* rightContacts@3x.png */; };
+		5E1FAA7A1CA4E7960055FC48 /* searchContacts@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E1FAA6E1CA4E7960055FC48 /* searchContacts@2x.png */; };
+		5E1FAA7B1CA4E7960055FC48 /* searchContacts@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E1FAA6F1CA4E7960055FC48 /* searchContacts@3x.png */; };
 		5E2ED9AE1C87127B001A4A3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2ED9AD1C87127B001A4A3A /* main.m */; };
 		5E2ED9B11C87127B001A4A3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2ED9B01C87127B001A4A3A /* AppDelegate.m */; };
 		5E2ED9BA1C87127B001A4A3A /* iOS_LearningRoad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5E2ED9B81C87127B001A4A3A /* iOS_LearningRoad.xcdatamodeld */; };
@@ -46,6 +64,13 @@
 
 /* Begin PBXFileReference section */
 		4D0B18A52BBA0152CB9069C2 /* libPods-iOS-LearningRoad.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS-LearningRoad.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E0DBA281CA1186700C819F5 /* DTOOrganInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DTOOrganInfo.h; path = OrganInfo/DTOOrganInfo.h; sourceTree = "<group>"; };
+		5E0DBA291CA1186700C819F5 /* DTOOrganInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DTOOrganInfo.m; path = OrganInfo/DTOOrganInfo.m; sourceTree = "<group>"; };
+		5E0DBA2B1CA11A2C00C819F5 /* OrganCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OrganCell.h; path = SelectOrgan/OrganCell.h; sourceTree = "<group>"; };
+		5E0DBA2C1CA11A2C00C819F5 /* OrganCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OrganCell.m; path = SelectOrgan/OrganCell.m; sourceTree = "<group>"; };
+		5E0DBA2D1CA11A2C00C819F5 /* OrganCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OrganCell.xib; path = SelectOrgan/OrganCell.xib; sourceTree = "<group>"; };
+		5E0DBA311CA1275000C819F5 /* SelectedOrganManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SelectedOrganManager.h; path = SelectedOrganManager/SelectedOrganManager.h; sourceTree = "<group>"; };
+		5E0DBA321CA1275000C819F5 /* SelectedOrganManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SelectedOrganManager.m; path = SelectedOrganManager/SelectedOrganManager.m; sourceTree = "<group>"; };
 		5E102D2C1C9FDBA2004E429F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5E102D2D1C9FDBA2004E429F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5E102D2E1C9FDBA2004E429F /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
@@ -67,6 +92,21 @@
 		5E102D481C9FDBF9004E429F /* FDEndPoints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDEndPoints.m; sourceTree = "<group>"; };
 		5E102D491C9FDBF9004E429F /* FDEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDEnums.h; sourceTree = "<group>"; };
 		5E102D4A1C9FDBF9004E429F /* FDFonts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDFonts.h; sourceTree = "<group>"; };
+		5E102D4D1C9FF990004E429F /* SelectOrganController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SelectOrganController.h; path = SelectOrgan/SelectOrganController.h; sourceTree = "<group>"; };
+		5E102D4E1C9FF990004E429F /* SelectOrganController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SelectOrganController.m; path = SelectOrgan/SelectOrganController.m; sourceTree = "<group>"; };
+		5E102D4F1C9FF990004E429F /* SelectOrganController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SelectOrganController.xib; path = SelectOrgan/SelectOrganController.xib; sourceTree = "<group>"; };
+		5E1FAA641CA4E7960055FC48 /* headContacts@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "headContacts@2x.png"; sourceTree = "<group>"; };
+		5E1FAA651CA4E7960055FC48 /* headContacts@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "headContacts@3x.png"; sourceTree = "<group>"; };
+		5E1FAA661CA4E7960055FC48 /* organChecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = organChecked.png; sourceTree = "<group>"; };
+		5E1FAA671CA4E7960055FC48 /* organChecked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "organChecked@2x.png"; sourceTree = "<group>"; };
+		5E1FAA681CA4E7960055FC48 /* organChecked@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "organChecked@3x.png"; sourceTree = "<group>"; };
+		5E1FAA691CA4E7960055FC48 /* organUnchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = organUnchecked.png; sourceTree = "<group>"; };
+		5E1FAA6A1CA4E7960055FC48 /* organUnchecked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "organUnchecked@2x.png"; sourceTree = "<group>"; };
+		5E1FAA6B1CA4E7960055FC48 /* organUnchecked@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "organUnchecked@3x.png"; sourceTree = "<group>"; };
+		5E1FAA6C1CA4E7960055FC48 /* rightContacts@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rightContacts@2x.png"; sourceTree = "<group>"; };
+		5E1FAA6D1CA4E7960055FC48 /* rightContacts@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rightContacts@3x.png"; sourceTree = "<group>"; };
+		5E1FAA6E1CA4E7960055FC48 /* searchContacts@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "searchContacts@2x.png"; sourceTree = "<group>"; };
+		5E1FAA6F1CA4E7960055FC48 /* searchContacts@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "searchContacts@3x.png"; sourceTree = "<group>"; };
 		5E2ED9A91C87127B001A4A3A /* iOS-LearningRoad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-LearningRoad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E2ED9AD1C87127B001A4A3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5E2ED9AF1C87127B001A4A3A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -113,9 +153,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E0DBA301CA1270300C819F5 /* SelectOrganManager */ = {
+			isa = PBXGroup;
+			children = (
+				5E0DBA311CA1275000C819F5 /* SelectedOrganManager.h */,
+				5E0DBA321CA1275000C819F5 /* SelectedOrganManager.m */,
+			);
+			name = SelectOrganManager;
+			sourceTree = "<group>";
+		};
 		5E102D261C9FDA46004E429F /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				5E102D4C1C9FF90F004E429F /* SelectOrgan */,
 				5E102D2B1C9FDBA2004E429F /* Base */,
 			);
 			path = Controllers;
@@ -137,6 +187,7 @@
 		5E102D281C9FDA46004E429F /* HttpManagers */ = {
 			isa = PBXGroup;
 			children = (
+				5E0DBA301CA1270300C819F5 /* SelectOrganManager */,
 				5E102D3E1C9FDBEF004E429F /* Base */,
 			);
 			path = HttpManagers;
@@ -145,6 +196,7 @@
 		5E102D291C9FDA46004E429F /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				5E102D521C9FFF47004E429F /* OrganInfo */,
 				5E102D371C9FDBD2004E429F /* Base */,
 			);
 			path = Models;
@@ -193,6 +245,47 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
+		5E102D4C1C9FF90F004E429F /* SelectOrgan */ = {
+			isa = PBXGroup;
+			children = (
+				5E0DBA2B1CA11A2C00C819F5 /* OrganCell.h */,
+				5E0DBA2C1CA11A2C00C819F5 /* OrganCell.m */,
+				5E0DBA2D1CA11A2C00C819F5 /* OrganCell.xib */,
+				5E102D4D1C9FF990004E429F /* SelectOrganController.h */,
+				5E102D4E1C9FF990004E429F /* SelectOrganController.m */,
+				5E102D4F1C9FF990004E429F /* SelectOrganController.xib */,
+			);
+			name = SelectOrgan;
+			sourceTree = "<group>";
+		};
+		5E102D521C9FFF47004E429F /* OrganInfo */ = {
+			isa = PBXGroup;
+			children = (
+				5E0DBA281CA1186700C819F5 /* DTOOrganInfo.h */,
+				5E0DBA291CA1186700C819F5 /* DTOOrganInfo.m */,
+			);
+			name = OrganInfo;
+			sourceTree = "<group>";
+		};
+		5E1FAA631CA4E7960055FC48 /* 通讯录 */ = {
+			isa = PBXGroup;
+			children = (
+				5E1FAA641CA4E7960055FC48 /* headContacts@2x.png */,
+				5E1FAA651CA4E7960055FC48 /* headContacts@3x.png */,
+				5E1FAA661CA4E7960055FC48 /* organChecked.png */,
+				5E1FAA671CA4E7960055FC48 /* organChecked@2x.png */,
+				5E1FAA681CA4E7960055FC48 /* organChecked@3x.png */,
+				5E1FAA691CA4E7960055FC48 /* organUnchecked.png */,
+				5E1FAA6A1CA4E7960055FC48 /* organUnchecked@2x.png */,
+				5E1FAA6B1CA4E7960055FC48 /* organUnchecked@3x.png */,
+				5E1FAA6C1CA4E7960055FC48 /* rightContacts@2x.png */,
+				5E1FAA6D1CA4E7960055FC48 /* rightContacts@3x.png */,
+				5E1FAA6E1CA4E7960055FC48 /* searchContacts@2x.png */,
+				5E1FAA6F1CA4E7960055FC48 /* searchContacts@3x.png */,
+			);
+			path = "通讯录";
+			sourceTree = "<group>";
+		};
 		5E2ED9A01C87127B001A4A3A = {
 			isa = PBXGroup;
 			children = (
@@ -222,10 +315,10 @@
 			children = (
 				5E2ED9AF1C87127B001A4A3A /* AppDelegate.h */,
 				5E2ED9B01C87127B001A4A3A /* AppDelegate.m */,
-				5E102D271C9FDA46004E429F /* Defines */,
-				5E102D281C9FDA46004E429F /* HttpManagers */,
-				5E102D291C9FDA46004E429F /* Models */,
 				5E102D2A1C9FDA46004E429F /* Utils */,
+				5E102D271C9FDA46004E429F /* Defines */,
+				5E102D291C9FDA46004E429F /* Models */,
+				5E102D281C9FDA46004E429F /* HttpManagers */,
 				5E102D261C9FDA46004E429F /* Controllers */,
 				5E2ED9BB1C87127B001A4A3A /* Assets.xcassets */,
 				5E2ED9C01C87127B001A4A3A /* Info.plist */,
@@ -238,6 +331,7 @@
 		5E2ED9AC1C87127B001A4A3A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5E1FAA631CA4E7960055FC48 /* 通讯录 */,
 				5E2ED9AD1C87127B001A4A3A /* main.m */,
 				5ED52B4E1C87CFCB00F012C7 /* iOS-LearningRoad-Prefix.pch */,
 			);
@@ -385,9 +479,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E1FAA711CA4E7960055FC48 /* headContacts@3x.png in Resources */,
+				5E1FAA751CA4E7960055FC48 /* organUnchecked.png in Resources */,
+				5E1FAA7B1CA4E7960055FC48 /* searchContacts@3x.png in Resources */,
+				5E1FAA791CA4E7960055FC48 /* rightContacts@3x.png in Resources */,
+				5E1FAA721CA4E7960055FC48 /* organChecked.png in Resources */,
 				5ED52B461C87192800F012C7 /* Xcode将项目放到GitHub上.pages in Resources */,
+				5E0DBA2F1CA11A2C00C819F5 /* OrganCell.xib in Resources */,
+				5E102D511C9FF990004E429F /* SelectOrganController.xib in Resources */,
+				5E1FAA7A1CA4E7960055FC48 /* searchContacts@2x.png in Resources */,
 				5E102D301C9FDBA2004E429F /* ViewController.xib in Resources */,
+				5E1FAA761CA4E7960055FC48 /* organUnchecked@2x.png in Resources */,
+				5E1FAA781CA4E7960055FC48 /* rightContacts@2x.png in Resources */,
+				5E1FAA771CA4E7960055FC48 /* organUnchecked@3x.png in Resources */,
 				5E2ED9BC1C87127B001A4A3A /* Assets.xcassets in Resources */,
+				5E1FAA731CA4E7960055FC48 /* organChecked@2x.png in Resources */,
+				5E1FAA701CA4E7960055FC48 /* headContacts@2x.png in Resources */,
+				5E1FAA741CA4E7960055FC48 /* organChecked@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,8 +575,12 @@
 				5ED52B451C87192800F012C7 /* README.md in Sources */,
 				5E102D351C9FDBC7004E429F /* ABUtil.m in Sources */,
 				5E2ED9B11C87127B001A4A3A /* AppDelegate.m in Sources */,
+				5E0DBA2E1CA11A2C00C819F5 /* OrganCell.m in Sources */,
+				5E0DBA2A1CA1186700C819F5 /* DTOOrganInfo.m in Sources */,
 				5E102D3D1C9FDBD2004E429F /* FDBaseResult.m in Sources */,
+				5E102D501C9FF990004E429F /* SelectOrganController.m in Sources */,
 				5E2ED9AE1C87127B001A4A3A /* main.m in Sources */,
+				5E0DBA331CA1275000C819F5 /* SelectedOrganManager.m in Sources */,
 				5E102D441C9FDBEF004E429F /* FDHttpManager.m in Sources */,
 				5E102D3C1C9FDBD2004E429F /* FDBaseModel.m in Sources */,
 				5E102D2F1C9FDBA2004E429F /* ViewController.m in Sources */,

@@ -8,21 +8,25 @@
 
 #import "ViewController.h"
 #import "Masonry.h"
+#import "SelectOrganController.h"
+#import "DTOOrganInfo.h"
 
-@interface ViewController ()
+@interface ViewController ()<SelectOrganControllerDelegate>
 
+@property (weak, nonatomic) IBOutlet UILabel *labOrganName;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad
 {
+    TICK
     [super viewDidLoad];
     [self setTitle:@"主界面"];
     [self.view setBackgroundColor:[UIColor yellowColor]];
-    
+    DEBUG;
     //下面添加其他UI控件
-    
+    TOCK
 }
 
 
@@ -31,4 +35,14 @@
     [super didReceiveMemoryWarning];
 }
 
+- (IBAction)goSelectOrgan:(UIButton *)sender {
+    SelectOrganController *controller = [[SelectOrganController alloc] init];
+    controller.delegate = self;
+    [self.navigationController pushViewController:controller animated:YES];
+}
+
+- (void)selectOrganController:(SelectOrganController *)selectOrgController didClickSure:(DTOOrganInfo *)organ{
+    
+    _labOrganName.text = organ.organName;
+}
 @end

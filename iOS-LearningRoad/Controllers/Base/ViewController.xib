@@ -7,6 +7,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController">
             <connections>
+                <outlet property="labOrganName" destination="2nr-3j-jGz" id="csf-zR-2vl"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -14,7 +15,38 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="上海市工商局" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2nr-3j-jGz">
+                    <rect key="frame" x="0.0" y="280" width="600" height="40"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="hYy-Q4-1mm"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xTv-22-rHU">
+                    <rect key="frame" x="0.0" y="280" width="600" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="YJu-EG-Gy3"/>
+                    </constraints>
+                    <connections>
+                        <action selector="goSelectOrgan:" destination="-1" eventType="touchUpInside" id="SoC-Mw-SD6"/>
+                    </connections>
+                </button>
+            </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="xTv-22-rHU" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="6QL-qE-6GE"/>
+                <constraint firstItem="2nr-3j-jGz" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Bf2-Ng-9wS"/>
+                <constraint firstItem="xTv-22-rHU" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="S1t-VO-pX1"/>
+                <constraint firstAttribute="trailing" secondItem="xTv-22-rHU" secondAttribute="trailing" id="Win-YG-Ye9"/>
+                <constraint firstItem="2nr-3j-jGz" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="cuN-2l-O4f"/>
+                <constraint firstItem="xTv-22-rHU" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="hae-Xv-Kex"/>
+                <constraint firstAttribute="trailing" secondItem="2nr-3j-jGz" secondAttribute="trailing" id="tZb-mT-nCG"/>
+                <constraint firstItem="2nr-3j-jGz" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="vLJ-5N-udb"/>
+            </constraints>
             <point key="canvasLocation" x="315" y="337"/>
         </view>
     </objects>
