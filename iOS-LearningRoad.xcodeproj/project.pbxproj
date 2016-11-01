@@ -23,6 +23,20 @@
 		5E2ED9BC1C87127B001A4A3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E2ED9BB1C87127B001A4A3A /* Assets.xcassets */; };
 		5E2ED9CA1C87127B001A4A3A /* iOS_LearningRoadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2ED9C91C87127B001A4A3A /* iOS_LearningRoadTests.m */; };
 		5E2ED9D51C87127C001A4A3A /* iOS_LearningRoadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2ED9D41C87127C001A4A3A /* iOS_LearningRoadUITests.m */; };
+		5EBDA9441DC7538100D48F52 /* ZZZAPPContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EBDA92B1DC7538100D48F52 /* ZZZAPPContext.m */; };
+		5EBDA9451DC7538100D48F52 /* ZZZNetworkConfigurer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EBDA92D1DC7538100D48F52 /* ZZZNetworkConfigurer.m */; };
+		5EBDA9461DC7538100D48F52 /* ZZZAPIResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EBDA9311DC7538100D48F52 /* ZZZAPIResponse.m */; };
+		5EBDA9471DC7538100D48F52 /* ZZZBaseAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EBDA9331DC7538100D48F52 /* ZZZBaseAPIManager.m */; };
+		5EBDA9481DC7538100D48F52 /* ZZZNetworkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EBDA9351DC7538100D48F52 /* ZZZNetworkingManager.m */; };
+		5EBDA9491DC7538100D48F52 /* ZZZAPICacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EBDA9391DC7538100D48F52 /* ZZZAPICacheManager.m */; };
+		5EBDA94A1DC7538100D48F52 /* ZZZAPICacheObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EBDA93B1DC7538100D48F52 /* ZZZAPICacheObject.m */; };
+		5EBDA94B1DC7538100D48F52 /* ZZZAPIRequestGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EBDA93E1DC7538100D48F52 /* ZZZAPIRequestGenerator.m */; };
+		5EBDA94C1DC7538100D48F52 /* ZZZBaseServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EBDA9411DC7538100D48F52 /* ZZZBaseServer.m */; };
+		5EBDA94D1DC7538100D48F52 /* ZZZServerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EBDA9431DC7538100D48F52 /* ZZZServerFactory.m */; };
+		5EBDA9551DC753AA00D48F52 /* ZZExampleHttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EBDA9511DC753AA00D48F52 /* ZZExampleHttpManager.m */; };
+		5EBDA9561DC753AA00D48F52 /* ZZZExampleServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EBDA9541DC753AA00D48F52 /* ZZZExampleServer.m */; };
+		5EBDA95A1DC8876100D48F52 /* ZZZAPISignatureGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EBDA9591DC8876100D48F52 /* ZZZAPISignatureGenerator.m */; };
+		5EBDA95E1DC88BD700D48F52 /* ZZZAPPLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EBDA95D1DC88BD700D48F52 /* ZZZAPPLocationManager.m */; };
 		5ED52B451C87192800F012C7 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 5ED52B431C87192800F012C7 /* README.md */; };
 		5ED52B461C87192800F012C7 /* Xcode将项目放到GitHub上.pages in Resources */ = {isa = PBXBuildFile; fileRef = 5ED52B441C87192800F012C7 /* Xcode将项目放到GitHub上.pages */; };
 /* End PBXBuildFile section */
@@ -80,6 +94,35 @@
 		5E2ED9D01C87127C001A4A3A /* iOS-LearningRoadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-LearningRoadUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E2ED9D41C87127C001A4A3A /* iOS_LearningRoadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_LearningRoadUITests.m; sourceTree = "<group>"; };
 		5E2ED9D61C87127C001A4A3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EBDA92A1DC7538100D48F52 /* ZZZAPPContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZZAPPContext.h; sourceTree = "<group>"; };
+		5EBDA92B1DC7538100D48F52 /* ZZZAPPContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZZAPPContext.m; sourceTree = "<group>"; };
+		5EBDA92C1DC7538100D48F52 /* ZZZNetworkConfigurer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZZNetworkConfigurer.h; sourceTree = "<group>"; };
+		5EBDA92D1DC7538100D48F52 /* ZZZNetworkConfigurer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZZNetworkConfigurer.m; sourceTree = "<group>"; };
+		5EBDA9301DC7538100D48F52 /* ZZZAPIResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZZAPIResponse.h; sourceTree = "<group>"; };
+		5EBDA9311DC7538100D48F52 /* ZZZAPIResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZZAPIResponse.m; sourceTree = "<group>"; };
+		5EBDA9321DC7538100D48F52 /* ZZZBaseAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZZBaseAPIManager.h; sourceTree = "<group>"; };
+		5EBDA9331DC7538100D48F52 /* ZZZBaseAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZZBaseAPIManager.m; sourceTree = "<group>"; };
+		5EBDA9341DC7538100D48F52 /* ZZZNetworkingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZZNetworkingManager.h; sourceTree = "<group>"; };
+		5EBDA9351DC7538100D48F52 /* ZZZNetworkingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZZNetworkingManager.m; sourceTree = "<group>"; };
+		5EBDA9361DC7538100D48F52 /* ZZZNetworkingProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZZNetworkingProtocol.h; sourceTree = "<group>"; };
+		5EBDA9381DC7538100D48F52 /* ZZZAPICacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZZAPICacheManager.h; sourceTree = "<group>"; };
+		5EBDA9391DC7538100D48F52 /* ZZZAPICacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZZAPICacheManager.m; sourceTree = "<group>"; };
+		5EBDA93A1DC7538100D48F52 /* ZZZAPICacheObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZZAPICacheObject.h; sourceTree = "<group>"; };
+		5EBDA93B1DC7538100D48F52 /* ZZZAPICacheObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZZAPICacheObject.m; sourceTree = "<group>"; };
+		5EBDA93D1DC7538100D48F52 /* ZZZAPIRequestGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZZAPIRequestGenerator.h; sourceTree = "<group>"; };
+		5EBDA93E1DC7538100D48F52 /* ZZZAPIRequestGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZZAPIRequestGenerator.m; sourceTree = "<group>"; };
+		5EBDA9401DC7538100D48F52 /* ZZZBaseServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZZBaseServer.h; sourceTree = "<group>"; };
+		5EBDA9411DC7538100D48F52 /* ZZZBaseServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZZBaseServer.m; sourceTree = "<group>"; };
+		5EBDA9421DC7538100D48F52 /* ZZZServerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZZServerFactory.h; sourceTree = "<group>"; };
+		5EBDA9431DC7538100D48F52 /* ZZZServerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZZServerFactory.m; sourceTree = "<group>"; };
+		5EBDA9501DC753AA00D48F52 /* ZZExampleHttpManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZExampleHttpManager.h; sourceTree = "<group>"; };
+		5EBDA9511DC753AA00D48F52 /* ZZExampleHttpManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZExampleHttpManager.m; sourceTree = "<group>"; };
+		5EBDA9531DC753AA00D48F52 /* ZZZExampleServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZZExampleServer.h; sourceTree = "<group>"; };
+		5EBDA9541DC753AA00D48F52 /* ZZZExampleServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZZExampleServer.m; sourceTree = "<group>"; };
+		5EBDA9581DC8876100D48F52 /* ZZZAPISignatureGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZZAPISignatureGenerator.h; sourceTree = "<group>"; };
+		5EBDA9591DC8876100D48F52 /* ZZZAPISignatureGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZZAPISignatureGenerator.m; sourceTree = "<group>"; };
+		5EBDA95C1DC88BD700D48F52 /* ZZZAPPLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZZAPPLocationManager.h; sourceTree = "<group>"; };
+		5EBDA95D1DC88BD700D48F52 /* ZZZAPPLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZZAPPLocationManager.m; sourceTree = "<group>"; };
 		5ED52B431C87192800F012C7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5ED52B441C87192800F012C7 /* Xcode将项目放到GitHub上.pages */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Xcode将项目放到GitHub上.pages"; sourceTree = "<group>"; };
 		5ED52B4E1C87CFCB00F012C7 /* iOS-LearningRoad-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "iOS-LearningRoad-Prefix.pch"; sourceTree = "<group>"; };
@@ -116,6 +159,7 @@
 		5E102D261C9FDA46004E429F /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				5EBDA94E1DC753AA00D48F52 /* ExampleNetworking */,
 				5E102D2B1C9FDBA2004E429F /* Base */,
 			);
 			path = Controllers;
@@ -137,6 +181,13 @@
 		5E102D281C9FDA46004E429F /* HttpManagers */ = {
 			isa = PBXGroup;
 			children = (
+				5EBDA95B1DC88BB600D48F52 /* LocationManager */,
+				5EBDA9571DC8875800D48F52 /* SignatureGenerator */,
+				5EBDA9291DC7538100D48F52 /* Addtional */,
+				5EBDA92F1DC7538100D48F52 /* BaseHttpManager */,
+				5EBDA9371DC7538100D48F52 /* CacheManager */,
+				5EBDA93C1DC7538100D48F52 /* RequestGenerator */,
+				5EBDA93F1DC7538100D48F52 /* ServerConfig */,
 				5E102D3E1C9FDBEF004E429F /* Base */,
 			);
 			path = HttpManagers;
@@ -260,6 +311,107 @@
 				5E2ED9D61C87127C001A4A3A /* Info.plist */,
 			);
 			path = "iOS-LearningRoadUITests";
+			sourceTree = "<group>";
+		};
+		5EBDA9291DC7538100D48F52 /* Addtional */ = {
+			isa = PBXGroup;
+			children = (
+				5EBDA92A1DC7538100D48F52 /* ZZZAPPContext.h */,
+				5EBDA92B1DC7538100D48F52 /* ZZZAPPContext.m */,
+				5EBDA92C1DC7538100D48F52 /* ZZZNetworkConfigurer.h */,
+				5EBDA92D1DC7538100D48F52 /* ZZZNetworkConfigurer.m */,
+			);
+			path = Addtional;
+			sourceTree = "<group>";
+		};
+		5EBDA92F1DC7538100D48F52 /* BaseHttpManager */ = {
+			isa = PBXGroup;
+			children = (
+				5EBDA9301DC7538100D48F52 /* ZZZAPIResponse.h */,
+				5EBDA9311DC7538100D48F52 /* ZZZAPIResponse.m */,
+				5EBDA9361DC7538100D48F52 /* ZZZNetworkingProtocol.h */,
+				5EBDA9321DC7538100D48F52 /* ZZZBaseAPIManager.h */,
+				5EBDA9331DC7538100D48F52 /* ZZZBaseAPIManager.m */,
+				5EBDA9341DC7538100D48F52 /* ZZZNetworkingManager.h */,
+				5EBDA9351DC7538100D48F52 /* ZZZNetworkingManager.m */,
+			);
+			path = BaseHttpManager;
+			sourceTree = "<group>";
+		};
+		5EBDA9371DC7538100D48F52 /* CacheManager */ = {
+			isa = PBXGroup;
+			children = (
+				5EBDA9381DC7538100D48F52 /* ZZZAPICacheManager.h */,
+				5EBDA9391DC7538100D48F52 /* ZZZAPICacheManager.m */,
+				5EBDA93A1DC7538100D48F52 /* ZZZAPICacheObject.h */,
+				5EBDA93B1DC7538100D48F52 /* ZZZAPICacheObject.m */,
+			);
+			path = CacheManager;
+			sourceTree = "<group>";
+		};
+		5EBDA93C1DC7538100D48F52 /* RequestGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				5EBDA93D1DC7538100D48F52 /* ZZZAPIRequestGenerator.h */,
+				5EBDA93E1DC7538100D48F52 /* ZZZAPIRequestGenerator.m */,
+			);
+			path = RequestGenerator;
+			sourceTree = "<group>";
+		};
+		5EBDA93F1DC7538100D48F52 /* ServerConfig */ = {
+			isa = PBXGroup;
+			children = (
+				5EBDA9401DC7538100D48F52 /* ZZZBaseServer.h */,
+				5EBDA9411DC7538100D48F52 /* ZZZBaseServer.m */,
+				5EBDA9421DC7538100D48F52 /* ZZZServerFactory.h */,
+				5EBDA9431DC7538100D48F52 /* ZZZServerFactory.m */,
+			);
+			path = ServerConfig;
+			sourceTree = "<group>";
+		};
+		5EBDA94E1DC753AA00D48F52 /* ExampleNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				5EBDA94F1DC753AA00D48F52 /* ExampleHttpManager */,
+				5EBDA9521DC753AA00D48F52 /* ExampleServer */,
+			);
+			path = ExampleNetworking;
+			sourceTree = "<group>";
+		};
+		5EBDA94F1DC753AA00D48F52 /* ExampleHttpManager */ = {
+			isa = PBXGroup;
+			children = (
+				5EBDA9501DC753AA00D48F52 /* ZZExampleHttpManager.h */,
+				5EBDA9511DC753AA00D48F52 /* ZZExampleHttpManager.m */,
+			);
+			path = ExampleHttpManager;
+			sourceTree = "<group>";
+		};
+		5EBDA9521DC753AA00D48F52 /* ExampleServer */ = {
+			isa = PBXGroup;
+			children = (
+				5EBDA9531DC753AA00D48F52 /* ZZZExampleServer.h */,
+				5EBDA9541DC753AA00D48F52 /* ZZZExampleServer.m */,
+			);
+			path = ExampleServer;
+			sourceTree = "<group>";
+		};
+		5EBDA9571DC8875800D48F52 /* SignatureGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				5EBDA9581DC8876100D48F52 /* ZZZAPISignatureGenerator.h */,
+				5EBDA9591DC8876100D48F52 /* ZZZAPISignatureGenerator.m */,
+			);
+			path = SignatureGenerator;
+			sourceTree = "<group>";
+		};
+		5EBDA95B1DC88BB600D48F52 /* LocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				5EBDA95C1DC88BD700D48F52 /* ZZZAPPLocationManager.h */,
+				5EBDA95D1DC88BD700D48F52 /* ZZZAPPLocationManager.m */,
+			);
+			path = LocationManager;
 			sourceTree = "<group>";
 		};
 		7085CB5942D833F93E087A8F /* Frameworks */ = {
@@ -460,17 +612,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EBDA94D1DC7538100D48F52 /* ZZZServerFactory.m in Sources */,
 				5E102D431C9FDBEF004E429F /* FDBaseManager.m in Sources */,
+				5EBDA9451DC7538100D48F52 /* ZZZNetworkConfigurer.m in Sources */,
+				5EBDA95A1DC8876100D48F52 /* ZZZAPISignatureGenerator.m in Sources */,
 				5E2ED9BA1C87127B001A4A3A /* iOS_LearningRoad.xcdatamodeld in Sources */,
 				5E102D4B1C9FDBF9004E429F /* FDEndPoints.m in Sources */,
 				5E102D361C9FDBC7004E429F /* AppConfig.m in Sources */,
 				5ED52B451C87192800F012C7 /* README.md in Sources */,
+				5EBDA9461DC7538100D48F52 /* ZZZAPIResponse.m in Sources */,
+				5EBDA9441DC7538100D48F52 /* ZZZAPPContext.m in Sources */,
 				5E102D351C9FDBC7004E429F /* ABUtil.m in Sources */,
+				5EBDA9481DC7538100D48F52 /* ZZZNetworkingManager.m in Sources */,
 				5E2ED9B11C87127B001A4A3A /* AppDelegate.m in Sources */,
+				5EBDA95E1DC88BD700D48F52 /* ZZZAPPLocationManager.m in Sources */,
 				5E102D3D1C9FDBD2004E429F /* FDBaseResult.m in Sources */,
 				5E2ED9AE1C87127B001A4A3A /* main.m in Sources */,
+				5EBDA9561DC753AA00D48F52 /* ZZZExampleServer.m in Sources */,
+				5EBDA94C1DC7538100D48F52 /* ZZZBaseServer.m in Sources */,
+				5EBDA9471DC7538100D48F52 /* ZZZBaseAPIManager.m in Sources */,
 				5E102D441C9FDBEF004E429F /* FDHttpManager.m in Sources */,
+				5EBDA94B1DC7538100D48F52 /* ZZZAPIRequestGenerator.m in Sources */,
 				5E102D3C1C9FDBD2004E429F /* FDBaseModel.m in Sources */,
+				5EBDA94A1DC7538100D48F52 /* ZZZAPICacheObject.m in Sources */,
+				5EBDA9551DC753AA00D48F52 /* ZZExampleHttpManager.m in Sources */,
+				5EBDA9491DC7538100D48F52 /* ZZZAPICacheManager.m in Sources */,
 				5E102D2F1C9FDBA2004E429F /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,11 +9,11 @@ pod 'Toast'
 
 pod 'Masonry', '~> 0.6.4'
 
-pod 'AFNetworking', '~> 2.6'
+pod 'AFNetworking', '~> 3.1.0'
 # - Homepage: github.com/AFNetworking/AFNetworking
 
 # - Homepage: github.com/shaioz/AFNetworking-AutoRetry
-pod 'AFNetworking+AutoRetry'
+#pod 'AFNetworking+AutoRetry'
 
 
 pod 'JSONModel', '~> 1.2.0'
