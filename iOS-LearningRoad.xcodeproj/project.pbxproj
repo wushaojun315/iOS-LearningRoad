@@ -23,6 +23,16 @@
 		5E2ED9BC1C87127B001A4A3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E2ED9BB1C87127B001A4A3A /* Assets.xcassets */; };
 		5E2ED9CA1C87127B001A4A3A /* iOS_LearningRoadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2ED9C91C87127B001A4A3A /* iOS_LearningRoadTests.m */; };
 		5E2ED9D51C87127C001A4A3A /* iOS_LearningRoadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2ED9D41C87127C001A4A3A /* iOS_LearningRoadUITests.m */; };
+		5E6A75331DEEBCBF00FC4167 /* SideContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6A75321DEEBCBF00FC4167 /* SideContainerViewController.m */; };
+		5E6A75351DEEC10500FC4167 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E6A75341DEEC10500FC4167 /* background.png */; };
+		5EEA25F61DF1763000B36236 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EEA25F51DF1763000B36236 /* LeftViewController.m */; };
+		5EEA25F91DF178E300B36236 /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EEA25F81DF178E300B36236 /* RightViewController.m */; };
+		5EEA25FC1DF5402E00B36236 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EEA25FB1DF5402E00B36236 /* MessageViewController.m */; };
+		5EEA25FF1DF5403D00B36236 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EEA25FE1DF5403D00B36236 /* MineViewController.m */; };
+		5EEA26031DF7DFD600B36236 /* InnerLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EEA26011DF7DFD600B36236 /* InnerLeftViewController.m */; };
+		5EEA26041DF7DFD600B36236 /* InnerLeftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EEA26021DF7DFD600B36236 /* InnerLeftViewController.xib */; };
+		5EEA26081DF7DFE400B36236 /* InnerRightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EEA26061DF7DFE400B36236 /* InnerRightViewController.m */; };
+		5EEA26091DF7DFE400B36236 /* InnerRightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EEA26071DF7DFE400B36236 /* InnerRightViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,7 +88,24 @@
 		5E2ED9D01C87127C001A4A3A /* iOS-LearningRoadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-LearningRoadUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E2ED9D41C87127C001A4A3A /* iOS_LearningRoadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_LearningRoadUITests.m; sourceTree = "<group>"; };
 		5E2ED9D61C87127C001A4A3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E6A75311DEEBCBF00FC4167 /* SideContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideContainerViewController.h; sourceTree = "<group>"; };
+		5E6A75321DEEBCBF00FC4167 /* SideContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideContainerViewController.m; sourceTree = "<group>"; };
+		5E6A75341DEEC10500FC4167 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		5ED52B4E1C87CFCB00F012C7 /* iOS-LearningRoad-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "iOS-LearningRoad-Prefix.pch"; sourceTree = "<group>"; };
+		5EEA25F41DF1763000B36236 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		5EEA25F51DF1763000B36236 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		5EEA25F71DF178E300B36236 /* RightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightViewController.h; sourceTree = "<group>"; };
+		5EEA25F81DF178E300B36236 /* RightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightViewController.m; sourceTree = "<group>"; };
+		5EEA25FA1DF5402E00B36236 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		5EEA25FB1DF5402E00B36236 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		5EEA25FD1DF5403D00B36236 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		5EEA25FE1DF5403D00B36236 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		5EEA26001DF7DFD600B36236 /* InnerLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InnerLeftViewController.h; sourceTree = "<group>"; };
+		5EEA26011DF7DFD600B36236 /* InnerLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InnerLeftViewController.m; sourceTree = "<group>"; };
+		5EEA26021DF7DFD600B36236 /* InnerLeftViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InnerLeftViewController.xib; sourceTree = "<group>"; };
+		5EEA26051DF7DFE400B36236 /* InnerRightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InnerRightViewController.h; sourceTree = "<group>"; };
+		5EEA26061DF7DFE400B36236 /* InnerRightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InnerRightViewController.m; sourceTree = "<group>"; };
+		5EEA26071DF7DFE400B36236 /* InnerRightViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InnerRightViewController.xib; sourceTree = "<group>"; };
 		A6616E4AAD1D2CB531086604 /* Pods-iOS-LearningRoad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-LearningRoad.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-LearningRoad/Pods-iOS-LearningRoad.debug.xcconfig"; sourceTree = "<group>"; };
 		FFD8A3293BF1D01D842D2D85 /* Pods-iOS-LearningRoad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-LearningRoad.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-LearningRoad/Pods-iOS-LearningRoad.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -163,6 +190,22 @@
 				5E102D2C1C9FDBA2004E429F /* ViewController.h */,
 				5E102D2D1C9FDBA2004E429F /* ViewController.m */,
 				5E102D2E1C9FDBA2004E429F /* ViewController.xib */,
+				5E6A75311DEEBCBF00FC4167 /* SideContainerViewController.h */,
+				5E6A75321DEEBCBF00FC4167 /* SideContainerViewController.m */,
+				5EEA25F41DF1763000B36236 /* LeftViewController.h */,
+				5EEA25F51DF1763000B36236 /* LeftViewController.m */,
+				5EEA25F71DF178E300B36236 /* RightViewController.h */,
+				5EEA25F81DF178E300B36236 /* RightViewController.m */,
+				5EEA25FA1DF5402E00B36236 /* MessageViewController.h */,
+				5EEA25FB1DF5402E00B36236 /* MessageViewController.m */,
+				5EEA25FD1DF5403D00B36236 /* MineViewController.h */,
+				5EEA25FE1DF5403D00B36236 /* MineViewController.m */,
+				5EEA26001DF7DFD600B36236 /* InnerLeftViewController.h */,
+				5EEA26011DF7DFD600B36236 /* InnerLeftViewController.m */,
+				5EEA26021DF7DFD600B36236 /* InnerLeftViewController.xib */,
+				5EEA26051DF7DFE400B36236 /* InnerRightViewController.h */,
+				5EEA26061DF7DFE400B36236 /* InnerRightViewController.m */,
+				5EEA26071DF7DFE400B36236 /* InnerRightViewController.xib */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -232,6 +275,7 @@
 		5E2ED9AC1C87127B001A4A3A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5E6A75341DEEC10500FC4167 /* background.png */,
 				5E2ED9AD1C87127B001A4A3A /* main.m */,
 				5ED52B4E1C87CFCB00F012C7 /* iOS-LearningRoad-Prefix.pch */,
 			);
@@ -343,6 +387,7 @@
 				TargetAttributes = {
 					5E2ED9A81C87127B001A4A3A = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = CPR94A6K9U;
 					};
 					5E2ED9C41C87127B001A4A3A = {
 						CreatedOnToolsVersion = 7.2;
@@ -379,7 +424,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EEA26091DF7DFE400B36236 /* InnerRightViewController.xib in Resources */,
 				5E102D301C9FDBA2004E429F /* ViewController.xib in Resources */,
+				5E6A75351DEEC10500FC4167 /* background.png in Resources */,
+				5EEA26041DF7DFD600B36236 /* InnerLeftViewController.xib in Resources */,
 				5E2ED9BC1C87127B001A4A3A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,13 +504,20 @@
 				5E102D431C9FDBEF004E429F /* FDBaseManager.m in Sources */,
 				5E2ED9BA1C87127B001A4A3A /* iOS_LearningRoad.xcdatamodeld in Sources */,
 				5E102D4B1C9FDBF9004E429F /* FDEndPoints.m in Sources */,
+				5E6A75331DEEBCBF00FC4167 /* SideContainerViewController.m in Sources */,
 				5E102D361C9FDBC7004E429F /* AppConfig.m in Sources */,
 				5E102D351C9FDBC7004E429F /* ABUtil.m in Sources */,
+				5EEA25FC1DF5402E00B36236 /* MessageViewController.m in Sources */,
+				5EEA25FF1DF5403D00B36236 /* MineViewController.m in Sources */,
 				5E2ED9B11C87127B001A4A3A /* AppDelegate.m in Sources */,
+				5EEA25F91DF178E300B36236 /* RightViewController.m in Sources */,
+				5EEA26081DF7DFE400B36236 /* InnerRightViewController.m in Sources */,
 				5E102D3D1C9FDBD2004E429F /* FDBaseResult.m in Sources */,
+				5EEA26031DF7DFD600B36236 /* InnerLeftViewController.m in Sources */,
 				5E2ED9AE1C87127B001A4A3A /* main.m in Sources */,
 				5E102D441C9FDBEF004E429F /* FDHttpManager.m in Sources */,
 				5E102D3C1C9FDBD2004E429F /* FDBaseModel.m in Sources */,
+				5EEA25F61DF1763000B36236 /* LeftViewController.m in Sources */,
 				5E102D2F1C9FDBA2004E429F /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -585,6 +640,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = CPR94A6K9U;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/iOS-LearningRoad/iOS-LearningRoad-Prefix.pch";
 				INFOPLIST_FILE = "iOS-LearningRoad/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -600,6 +656,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = CPR94A6K9U;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/iOS-LearningRoad/iOS-LearningRoad-Prefix.pch";
 				INFOPLIST_FILE = "iOS-LearningRoad/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

@@ -8,6 +8,11 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
+#import "SideContainerViewController.h"
+#import "LeftViewController.h"
+#import "RightViewController.h"
+#import "MessageViewController.h"
+#import "MineViewController.h"
 
 @interface AppDelegate ()
 
@@ -23,7 +28,28 @@
     ViewController *mainViewController = [[ViewController alloc] init];
     UINavigationController *mainNavController = [[UINavigationController alloc] initWithRootViewController:mainViewController];
     
-    [self.window setRootViewController:mainNavController];
+    MessageViewController *messageController = [[MessageViewController alloc] init];
+    UINavigationController *messNavController = [[UINavigationController alloc] initWithRootViewController:messageController];
+    
+    MineViewController *mineController = [[MineViewController alloc] init];
+    UINavigationController *mineNavController = [[UINavigationController alloc] initWithRootViewController:mineController];
+    
+    LeftViewController *leftControler = [[LeftViewController alloc] init];
+    RightViewController *rightController = [[RightViewController alloc] init];
+    
+    UITabBarController *tabbarController = [[UITabBarController alloc] init];
+    tabbarController.viewControllers = @[mainNavController, messNavController, mineNavController];
+    
+//    SideContainerViewController *sideContainerController = [[SideContainerViewController alloc] initWithNaviController:mainNavController leftMenu:leftControler rightMenu:nil];
+    
+    SideContainerViewController *sideContainerController = [[SideContainerViewController alloc] initWithTabBarController:tabbarController leftMenu:leftControler rightMenu:rightController leftButtonClickAble:YES rightButtonClickAble:YES];
+    
+//    SideContainerViewController *sideContainerController = [[SideContainerViewController alloc] initWithHomeViewController:mainViewController leftMenu:leftControler rightMenu:rightController leftButtonClickAble:NO rightButtonClickAble:YES];
+    
+    leftControler.containerViewController = sideContainerController;
+    rightController.containerViewController = sideContainerController;
+    
+    [self.window setRootViewController:sideContainerController];
     [self.window makeKeyAndVisible];
     
     return YES;
