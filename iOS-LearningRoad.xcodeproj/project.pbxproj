@@ -23,6 +23,13 @@
 		5E28FB0D1F9880B30042791B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E28FB091F9880B30042791B /* Assets.xcassets */; };
 		5E2ED9CA1C87127B001A4A3A /* iOS_LearningRoadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2ED9C91C87127B001A4A3A /* iOS_LearningRoadTests.m */; };
 		5E2ED9D51C87127C001A4A3A /* iOS_LearningRoadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2ED9D41C87127C001A4A3A /* iOS_LearningRoadUITests.m */; };
+		5E8081C51FA076250071D1C8 /* icon_weixin@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E8081BF1FA076240071D1C8 /* icon_weixin@3x.png */; };
+		5E8081C61FA076250071D1C8 /* icon_qq@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E8081C01FA076240071D1C8 /* icon_qq@3x.png */; };
+		5E8081C71FA076250071D1C8 /* icon_weixin.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E8081C11FA076240071D1C8 /* icon_weixin.png */; };
+		5E8081C81FA076250071D1C8 /* icon_qq@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E8081C21FA076250071D1C8 /* icon_qq@2x.png */; };
+		5E8081C91FA076250071D1C8 /* icon_weixin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E8081C31FA076250071D1C8 /* icon_weixin@2x.png */; };
+		5E8081CA1FA076250071D1C8 /* icon_qq.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E8081C41FA076250071D1C8 /* icon_qq.png */; };
+		5E8081D01FA09B140071D1C8 /* UIButton+ZZZAdjustImagePosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8081CF1FA09B140071D1C8 /* UIButton+ZZZAdjustImagePosition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +86,14 @@
 		5E2ED9D01C87127C001A4A3A /* iOS-LearningRoadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-LearningRoadUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E2ED9D41C87127C001A4A3A /* iOS_LearningRoadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_LearningRoadUITests.m; sourceTree = "<group>"; };
 		5E2ED9D61C87127C001A4A3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E8081BF1FA076240071D1C8 /* icon_weixin@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_weixin@3x.png"; sourceTree = "<group>"; };
+		5E8081C01FA076240071D1C8 /* icon_qq@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_qq@3x.png"; sourceTree = "<group>"; };
+		5E8081C11FA076240071D1C8 /* icon_weixin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_weixin.png; sourceTree = "<group>"; };
+		5E8081C21FA076250071D1C8 /* icon_qq@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_qq@2x.png"; sourceTree = "<group>"; };
+		5E8081C31FA076250071D1C8 /* icon_weixin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_weixin@2x.png"; sourceTree = "<group>"; };
+		5E8081C41FA076250071D1C8 /* icon_qq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_qq.png; sourceTree = "<group>"; };
+		5E8081CE1FA09B140071D1C8 /* UIButton+ZZZAdjustImagePosition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+ZZZAdjustImagePosition.h"; sourceTree = "<group>"; };
+		5E8081CF1FA09B140071D1C8 /* UIButton+ZZZAdjustImagePosition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ZZZAdjustImagePosition.m"; sourceTree = "<group>"; };
 		A6616E4AAD1D2CB531086604 /* Pods-iOS-LearningRoad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-LearningRoad.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-LearningRoad/Pods-iOS-LearningRoad.debug.xcconfig"; sourceTree = "<group>"; };
 		FFD8A3293BF1D01D842D2D85 /* Pods-iOS-LearningRoad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-LearningRoad.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-LearningRoad/Pods-iOS-LearningRoad.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -204,6 +219,12 @@
 		5E28FB081F9880B30042791B /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				5E8081C41FA076250071D1C8 /* icon_qq.png */,
+				5E8081C21FA076250071D1C8 /* icon_qq@2x.png */,
+				5E8081C01FA076240071D1C8 /* icon_qq@3x.png */,
+				5E8081C11FA076240071D1C8 /* icon_weixin.png */,
+				5E8081C31FA076250071D1C8 /* icon_weixin@2x.png */,
+				5E8081BF1FA076240071D1C8 /* icon_weixin@3x.png */,
 				5E28FB091F9880B30042791B /* Assets.xcassets */,
 			);
 			path = Resource;
@@ -234,6 +255,8 @@
 		5E2ED9AB1C87127B001A4A3A /* iOS-LearningRoad */ = {
 			isa = PBXGroup;
 			children = (
+				5E8081CE1FA09B140071D1C8 /* UIButton+ZZZAdjustImagePosition.h */,
+				5E8081CF1FA09B140071D1C8 /* UIButton+ZZZAdjustImagePosition.m */,
 				5E28FB011F9880B30042791B /* AppDelegate */,
 				5E28FB081F9880B30042791B /* Resource */,
 				5E102D271C9FDA46004E429F /* Defines */,
@@ -387,8 +410,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E8081CA1FA076250071D1C8 /* icon_qq.png in Resources */,
 				5E28FB0D1F9880B30042791B /* Assets.xcassets in Resources */,
+				5E8081C81FA076250071D1C8 /* icon_qq@2x.png in Resources */,
 				5E102D301C9FDBA2004E429F /* ViewController.xib in Resources */,
+				5E8081C61FA076250071D1C8 /* icon_qq@3x.png in Resources */,
+				5E8081C71FA076250071D1C8 /* icon_weixin.png in Resources */,
+				5E8081C51FA076250071D1C8 /* icon_weixin@3x.png in Resources */,
+				5E8081C91FA076250071D1C8 /* icon_weixin@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,6 +495,7 @@
 				5E28FB0A1F9880B30042791B /* AppDelegate.m in Sources */,
 				5E102D361C9FDBC7004E429F /* AppConfig.m in Sources */,
 				5E102D351C9FDBC7004E429F /* ABUtil.m in Sources */,
+				5E8081D01FA09B140071D1C8 /* UIButton+ZZZAdjustImagePosition.m in Sources */,
 				5E102D3D1C9FDBD2004E429F /* FDBaseResult.m in Sources */,
 				5E102D441C9FDBEF004E429F /* FDHttpManager.m in Sources */,
 				5E28FB0B1F9880B30042791B /* iOS_LearningRoad.xcdatamodeld in Sources */,
